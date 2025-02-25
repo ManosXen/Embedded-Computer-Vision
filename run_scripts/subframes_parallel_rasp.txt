@@ -1,0 +1,36 @@
+./bin/python3 check_models.py mobilenet ../models/full_models/mobilenet_v3_Small_freeze.pth 2 2 0.4 cpu
+✅ Device: cpu, Accuracy on 150 images: 86.67%, FPS: 9.51, Grid:((2, 2)) Patch Accuracy: 81.33%, FPS: 5.91
+./bin/python3 check_models.py mobilenet ../models/full_models/mobilenet_v3_Small_freeze.pth 2 4 0.4 cpu
+✅ Device: cpu, Accuracy on 150 images: 86.67%, FPS: 10.45, Grid:((2, 4)) Patch Accuracy: 47.33%, FPS: 6.14
+./bin/python3 check_models.py mobilenet ../models/full_models/mobilenet_v3_Small_freeze.pth 4 2 0.4 cpu
+✅ Device: cpu, Accuracy on 150 images: 86.67%, FPS: 10.45, Grid:((4, 2)) Patch Accuracy: 60.00%, FPS: 5.98
+./bin/python3 check_models.py mobilenet ../models/full_models/mobilenet_v3_small_nofreeze.pth 2 2 0.4 cpu
+✅ Device: cpu, Accuracy on 150 images: 88.67%, FPS: 10.10, Grid:((2, 2)) Patch Accuracy: 81.33%, FPS: 5.79
+./bin/python3 check_models.py mobilenet ../models/full_models/mobilenet_v3_small_nofreeze.pth 2 4 0.4 cpu
+✅ Device: cpu, Accuracy on 150 images: 88.67%, FPS: 10.07, Grid:((2, 4)) Patch Accuracy: 54.67%, FPS: 5.97
+./bin/python3 check_models.py mobilenet ../models/full_models/mobilenet_v3_small_nofreeze.pth 4 2 0.4 cpu
+✅ Device: cpu, Accuracy on 150 images: 88.67%, FPS: 10.10, Grid:((4, 2)) Patch Accuracy: 60.67%, FPS: 5.91
+./bin/python3 check_models.py resnet ../models/full_models/resnet18.pth 2 2 0.4 cpu
+✅ Device: cpu, Accuracy on 150 images: 92.67%, FPS: 4.01, Grid:((2, 2)) Patch Accuracy: 84.67%, FPS: 2.13
+./bin/python3 check_models.py resnet ../models/full_models/resnet18.pth 2 4 0.4 cpu
+✅ Device: cpu, Accuracy on 150 images: 92.67%, FPS: 3.81, Grid:((2, 4)) Patch Accuracy: 69.33%, FPS: 2.05
+./bin/python3 check_models.py resnet ../models/full_models/resnet18.pth 4 2 0.4 cpu
+✅ Device: cpu, Accuracy on 150 images: 92.67%, FPS: 3.73, Grid:((4, 2)) Patch Accuracy: 67.33%, FPS: 2.03
+./bin/python3 check_models.py shuffle_0_5 ../models/full_models/shufflenet_v2_x0_5.pth 2 2 0.4 cpu
+✅ Device: cpu, Accuracy on 150 images: 79.33%, FPS: 12.15, Grid:((2, 2)) Patch Accuracy: 78.00%, FPS: 6.22
+./bin/python3 check_models.py shuffle_0_5 ../models/full_models/shufflenet_v2_x0_5.pth 2 4 0.4 cpu
+✅ Device: cpu, Accuracy on 150 images: 79.33%, FPS: 12.31, Grid:((2, 4)) Patch Accuracy: 70.00%, FPS: 6.48
+./bin/python3 check_models.py shuffle_0_5 ../models/full_models/shufflenet_v2_x0_5.pth 4 2 0.4 cpu
+✅ Device: cpu, Accuracy on 150 images: 79.33%, FPS: 12.34, Grid:((4, 2)) Patch Accuracy: 66.67%, FPS: 6.51
+./bin/python3 check_models.py shuffle_1_0 ../models/full_models/shufflenet_v2_x1_0.pth 2 2 0.4 cpu
+✅ Device: cpu, Accuracy on 150 images: 85.33%, FPS: 6.83, Grid:((2, 2)) Patch Accuracy: 78.67%, FPS: 4.14
+./bin/python3 check_models.py shuffle_1_0 ../models/full_models/shufflenet_v2_x1_0.pth 2 4 0.4 cpu
+✅ Device: cpu, Accuracy on 150 images: 85.33%, FPS: 6.73, Grid:((2, 4)) Patch Accuracy: 66.67%, FPS: 4.19
+./bin/python3 check_models.py shuffle_1_0 ../models/full_models/shufflenet_v2_x1_0.pth 4 2 0.4 cpu
+✅ Device: cpu, Accuracy on 150 images: 85.33%, FPS: 6.75, Grid:((4, 2)) Patch Accuracy: 70.00%, FPS: 4.21
+./bin/python3 check_models.py squeeze ../models/full_models/squeezenet1_1.pth 2 2 0.4 cpu
+✅ Device: cpu, Accuracy on 150 images: 88.00%, FPS: 7.17, Grid:((2, 2)) Patch Accuracy: 80.67%, FPS: 4.05
+./bin/python3 check_models.py squeeze ../models/full_models/squeezenet1_1.pth 2 4 0.4 cpu
+✅ Device: cpu, Accuracy on 150 images: 88.00%, FPS: 7.16, Grid:((2, 4)) Patch Accuracy: 70.67%, FPS: 4.44
+./bin/python3 check_models.py squeeze ../models/full_models/squeezenet1_1.pth 4 2 0.4 cpu
+✅ Device: cpu, Accuracy on 150 images: 88.00%, FPS: 7.19, Grid:((4, 2)) Patch Accuracy: 75.33%, FPS: 4.41

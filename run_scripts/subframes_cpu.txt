@@ -1,0 +1,162 @@
+../bin/python3 check_models.py mobilenet ../models/full_models/mobilenet_v3_Small_freeze.pth 2 2 0.4 cpu
+✅ Device: cpu, Accuracy on 150 images: 86.67%, FPS: 58.03, Grid:((2, 2)) Patch Accuracy: 81.33%, FPS: 22.73
+../bin/python3 check_models.py mobilenet ../models/full_models/mobilenet_v3_Small_freeze.pth 2 4 0.4 cpu
+✅ Device: cpu, Accuracy on 150 images: 86.67%, FPS: 58.26, Grid:((2, 4)) Patch Accuracy: 47.33%, FPS: 15.20
+../bin/python3 check_models.py mobilenet ../models/full_models/mobilenet_v3_Small_freeze.pth 4 2 0.4 cpu
+✅ Device: cpu, Accuracy on 150 images: 86.67%, FPS: 58.54, Grid:((4, 2)) Patch Accuracy: 60.00%, FPS: 15.25
+../bin/python3 check_models.py mobilenet ../models/full_models/mobilenet_v3_small_nofreeze.pth 2 2 0.4 cpu
+✅ Device: cpu, Accuracy on 150 images: 88.67%, FPS: 57.51, Grid:((2, 2)) Patch Accuracy: 81.33%, FPS: 24.01
+../bin/python3 check_models.py mobilenet ../models/full_models/mobilenet_v3_small_nofreeze.pth 2 4 0.4 cpu
+✅ Device: cpu, Accuracy on 150 images: 88.67%, FPS: 57.66, Grid:((2, 4)) Patch Accuracy: 54.67%, FPS: 14.90
+../bin/python3 check_models.py mobilenet ../models/full_models/mobilenet_v3_small_nofreeze.pth 4 2 0.4 cpu
+✅ Device: cpu, Accuracy on 150 images: 88.67%, FPS: 57.53, Grid:((4, 2)) Patch Accuracy: 60.67%, FPS: 15.10
+../bin/python3 check_models.py resnet ../models/full_models/resnet18.pth 2 2 0.4 cpu
+✅ Device: cpu, Accuracy on 150 images: 92.67%, FPS: 20.52, Grid:((2, 2)) Patch Accuracy: 84.67%, FPS: 7.29
+../bin/python3 check_models.py resnet ../models/full_models/resnet18.pth 2 4 0.4 cpu
+✅ Device: cpu, Accuracy on 150 images: 92.67%, FPS: 19.38, Grid:((2, 4)) Patch Accuracy: 69.33%, FPS: 5.02
+../bin/python3 check_models.py resnet ../models/full_models/resnet18.pth 4 2 0.4 cpu
+✅ Device: cpu, Accuracy on 150 images: 92.67%, FPS: 20.95, Grid:((4, 2)) Patch Accuracy: 67.33%, FPS: 5.09
+../bin/python3 check_models.py shuffle_0_5 ../models/full_models/shufflenet_v2_x0_5.pth 2 2 0.4 cpu
+✅ Device: cpu, Accuracy on 150 images: 79.33%, FPS: 53.88, Grid:((2, 2)) Patch Accuracy: 78.00%, FPS: 22.74
+../bin/python3 check_models.py shuffle_0_5 ../models/full_models/shufflenet_v2_x0_5.pth 2 4 0.4 cpu
+✅ Device: cpu, Accuracy on 150 images: 79.33%, FPS: 57.53, Grid:((2, 4)) Patch Accuracy: 70.00%, FPS: 13.62
+../bin/python3 check_models.py shuffle_0_5 ../models/full_models/shufflenet_v2_x0_5.pth 4 2 0.4 cpu
+✅ Device: cpu, Accuracy on 150 images: 79.33%, FPS: 57.25, Grid:((4, 2)) Patch Accuracy: 66.67%, FPS: 13.81
+../bin/python3 check_models.py shuffle_1_0 ../models/full_models/shufflenet_v2_x1_0.pth 2 2 0.4 cpu
+✅ Device: cpu, Accuracy on 150 images: 85.33%, FPS: 41.27, Grid:((2, 2)) Patch Accuracy: 78.67%, FPS: 16.88
+../bin/python3 check_models.py shuffle_1_0 ../models/full_models/shufflenet_v2_x1_0.pth 2 4 0.4 cpu
+✅ Device: cpu, Accuracy on 150 images: 85.33%, FPS: 41.76, Grid:((2, 4)) Patch Accuracy: 66.67%, FPS: 11.02
+../bin/python3 check_models.py shuffle_1_0 ../models/full_models/shufflenet_v2_x1_0.pth 4 2 0.4 cpu
+✅ Device: cpu, Accuracy on 150 images: 85.33%, FPS: 41.42, Grid:((4, 2)) Patch Accuracy: 70.00%, FPS: 10.94
+../bin/python3 check_models.py squeeze ../models/full_models/squeezenet1_1.pth 2 2 0.4 cpu
+✅ Device: cpu, Accuracy on 150 images: 88.00%, FPS: 51.64, Grid:((2, 2)) Patch Accuracy: 80.67%, FPS: 26.76
+../bin/python3 check_models.py squeeze ../models/full_models/squeezenet1_1.pth 2 4 0.4 cpu
+✅ Device: cpu, Accuracy on 150 images: 88.00%, FPS: 51.11, Grid:((2, 4)) Patch Accuracy: 70.67%, FPS: 23.43
+../bin/python3 check_models.py squeeze ../models/full_models/squeezenet1_1.pth 4 2 0.4 cpu
+✅ Device: cpu, Accuracy on 150 images: 88.00%, FPS: 51.68, Grid:((4, 2)) Patch Accuracy: 75.33%, FPS: 24.12
+../bin/python3 check_models.py mobilenet ../models/full_models/mobilenet_v3_Small_freeze.pth 2 2 0.4 4 cuda
+../bin/python3 check_models.py mobilenet ../models/full_models/mobilenet_v3_Small_freeze.pth 2 4 0.4 4 cuda
+../bin/python3 check_models.py mobilenet ../models/full_models/mobilenet_v3_Small_freeze.pth 4 2 0.4 4 cuda
+../bin/python3 check_models.py mobilenet ../models/full_models/mobilenet_v3_small_nofreeze.pth 2 2 0.4 4 cuda
+../bin/python3 check_models.py mobilenet ../models/full_models/mobilenet_v3_small_nofreeze.pth 2 4 0.4 4 cuda
+../bin/python3 check_models.py mobilenet ../models/full_models/mobilenet_v3_small_nofreeze.pth 4 2 0.4 4 cuda
+../bin/python3 check_models.py resnet ../models/full_models/resnet18.pth 2 2 0.4 4 cuda
+../bin/python3 check_models.py resnet ../models/full_models/resnet18.pth 2 4 0.4 4 cuda
+../bin/python3 check_models.py resnet ../models/full_models/resnet18.pth 4 2 0.4 4 cuda
+../bin/python3 check_models.py shuffle_0_5 ../models/full_models/shufflenet_v2_x0_5.pth 2 2 0.4 4 cuda
+../bin/python3 check_models.py shuffle_0_5 ../models/full_models/shufflenet_v2_x0_5.pth 2 4 0.4 4 cuda
+../bin/python3 check_models.py shuffle_0_5 ../models/full_models/shufflenet_v2_x0_5.pth 4 2 0.4 4 cuda
+../bin/python3 check_models.py shuffle_1_0 ../models/full_models/shufflenet_v2_x1_0.pth 2 2 0.4 4 cuda
+../bin/python3 check_models.py shuffle_1_0 ../models/full_models/shufflenet_v2_x1_0.pth 2 4 0.4 4 cuda
+../bin/python3 check_models.py shuffle_1_0 ../models/full_models/shufflenet_v2_x1_0.pth 4 2 0.4 4 cuda
+../bin/python3 check_models.py squeeze ../models/full_models/squeezenet1_1.pth 2 2 0.4 4 cuda
+../bin/python3 check_models.py squeeze ../models/full_models/squeezenet1_1.pth 2 4 0.4 4 cuda
+../bin/python3 check_models.py squeeze ../models/full_models/squeezenet1_1.pth 4 2 0.4 4 cuda
+../bin/python3 check_models.py mobilenet ../models/full_models/mobilenet_v3_Small_freeze.pth 2 2 0.4 4 cuda
+../bin/python3 check_models.py mobilenet ../models/full_models/mobilenet_v3_Small_freeze.pth 2 4 0.4 4 cuda
+../bin/python3 check_models.py mobilenet ../models/full_models/mobilenet_v3_Small_freeze.pth 4 2 0.4 4 cuda
+../bin/python3 check_models.py mobilenet ../models/full_models/mobilenet_v3_small_nofreeze.pth 2 2 0.4 4 cuda
+../bin/python3 check_models.py mobilenet ../models/full_models/mobilenet_v3_small_nofreeze.pth 2 4 0.4 4 cuda
+../bin/python3 check_models.py mobilenet ../models/full_models/mobilenet_v3_small_nofreeze.pth 4 2 0.4 4 cuda
+../bin/python3 check_models.py resnet ../models/full_models/resnet18.pth 2 2 0.4 4 cuda
+../bin/python3 check_models.py resnet ../models/full_models/resnet18.pth 2 4 0.4 4 cuda
+../bin/python3 check_models.py resnet ../models/full_models/resnet18.pth 4 2 0.4 4 cuda
+../bin/python3 check_models.py shuffle_0_5 ../models/full_models/shufflenet_v2_x0_5.pth 2 2 0.4 4 cuda
+../bin/python3 check_models.py shuffle_0_5 ../models/full_models/shufflenet_v2_x0_5.pth 2 4 0.4 4 cuda
+../bin/python3 check_models.py shuffle_0_5 ../models/full_models/shufflenet_v2_x0_5.pth 4 2 0.4 4 cuda
+../bin/python3 check_models.py shuffle_1_0 ../models/full_models/shufflenet_v2_x1_0.pth 2 2 0.4 4 cuda
+../bin/python3 check_models.py shuffle_1_0 ../models/full_models/shufflenet_v2_x1_0.pth 2 4 0.4 4 cuda
+../bin/python3 check_models.py shuffle_1_0 ../models/full_models/shufflenet_v2_x1_0.pth 4 2 0.4 4 cuda
+../bin/python3 check_models.py squeeze ../models/full_models/squeezenet1_1.pth 2 2 0.4 4 cuda
+../bin/python3 check_models.py squeeze ../models/full_models/squeezenet1_1.pth 2 4 0.4 4 cuda
+../bin/python3 check_models.py squeeze ../models/full_models/squeezenet1_1.pth 4 2 0.4 4 cuda
+../bin/python3 check_models.py mobilenet ../models/full_models/mobilenet_v3_Small_freeze.pth 2 2 0.4 4 cuda
+../bin/python3 check_models.py mobilenet ../models/full_models/mobilenet_v3_Small_freeze.pth 2 4 0.4 4 cuda
+../bin/python3 check_models.py mobilenet ../models/full_models/mobilenet_v3_Small_freeze.pth 4 2 0.4 4 cuda
+../bin/python3 check_models.py mobilenet ../models/full_models/mobilenet_v3_small_nofreeze.pth 2 2 0.4 4 cuda
+../bin/python3 check_models.py mobilenet ../models/full_models/mobilenet_v3_small_nofreeze.pth 2 4 0.4 4 cuda
+../bin/python3 check_models.py mobilenet ../models/full_models/mobilenet_v3_small_nofreeze.pth 4 2 0.4 4 cuda
+../bin/python3 check_models.py resnet ../models/full_models/resnet18.pth 2 2 0.4 4 cuda
+../bin/python3 check_models.py resnet ../models/full_models/resnet18.pth 2 4 0.4 4 cuda
+../bin/python3 check_models.py resnet ../models/full_models/resnet18.pth 4 2 0.4 4 cuda
+../bin/python3 check_models.py shuffle_0_5 ../models/full_models/shufflenet_v2_x0_5.pth 2 2 0.4 4 cuda
+../bin/python3 check_models.py shuffle_0_5 ../models/full_models/shufflenet_v2_x0_5.pth 2 4 0.4 4 cuda
+../bin/python3 check_models.py shuffle_0_5 ../models/full_models/shufflenet_v2_x0_5.pth 4 2 0.4 4 cuda
+../bin/python3 check_models.py shuffle_1_0 ../models/full_models/shufflenet_v2_x1_0.pth 2 2 0.4 4 cuda
+../bin/python3 check_models.py shuffle_1_0 ../models/full_models/shufflenet_v2_x1_0.pth 2 4 0.4 4 cuda
+../bin/python3 check_models.py shuffle_1_0 ../models/full_models/shufflenet_v2_x1_0.pth 4 2 0.4 4 cuda
+../bin/python3 check_models.py squeeze ../models/full_models/squeezenet1_1.pth 2 2 0.4 4 cuda
+../bin/python3 check_models.py squeeze ../models/full_models/squeezenet1_1.pth 2 4 0.4 4 cuda
+../bin/python3 check_models.py squeeze ../models/full_models/squeezenet1_1.pth 4 2 0.4 4 cuda
+../bin/python3 check_models.py mobilenet ../models/full_models/mobilenet_v3_Small_freeze.pth 2 2 0.4 4 cuda
+../bin/python3 check_models.py mobilenet ../models/full_models/mobilenet_v3_Small_freeze.pth 2 4 0.4 4 cuda
+../bin/python3 check_models.py mobilenet ../models/full_models/mobilenet_v3_Small_freeze.pth 4 2 0.4 4 cuda
+../bin/python3 check_models.py mobilenet ../models/full_models/mobilenet_v3_small_nofreeze.pth 2 2 0.4 4 cuda
+../bin/python3 check_models.py mobilenet ../models/full_models/mobilenet_v3_small_nofreeze.pth 2 4 0.4 4 cuda
+../bin/python3 check_models.py mobilenet ../models/full_models/mobilenet_v3_small_nofreeze.pth 4 2 0.4 4 cuda
+../bin/python3 check_models.py resnet ../models/full_models/resnet18.pth 2 2 0.4 4 cuda
+../bin/python3 check_models.py resnet ../models/full_models/resnet18.pth 2 4 0.4 4 cuda
+../bin/python3 check_models.py resnet ../models/full_models/resnet18.pth 4 2 0.4 4 cuda
+../bin/python3 check_models.py shuffle_0_5 ../models/full_models/shufflenet_v2_x0_5.pth 2 2 0.4 4 cuda
+../bin/python3 check_models.py shuffle_0_5 ../models/full_models/shufflenet_v2_x0_5.pth 2 4 0.4 4 cuda
+../bin/python3 check_models.py shuffle_0_5 ../models/full_models/shufflenet_v2_x0_5.pth 4 2 0.4 4 cuda
+../bin/python3 check_models.py shuffle_1_0 ../models/full_models/shufflenet_v2_x1_0.pth 2 2 0.4 4 cuda
+../bin/python3 check_models.py shuffle_1_0 ../models/full_models/shufflenet_v2_x1_0.pth 2 4 0.4 4 cuda
+../bin/python3 check_models.py shuffle_1_0 ../models/full_models/shufflenet_v2_x1_0.pth 4 2 0.4 4 cuda
+../bin/python3 check_models.py squeeze ../models/full_models/squeezenet1_1.pth 2 2 0.4 4 cuda
+../bin/python3 check_models.py squeeze ../models/full_models/squeezenet1_1.pth 2 4 0.4 4 cuda
+../bin/python3 check_models.py squeeze ../models/full_models/squeezenet1_1.pth 4 2 0.4 4 cuda
+../bin/python3 check_models.py mobilenet ../models/full_models/mobilenet_v3_Small_freeze.pth 2 2 0.4 4 cuda
+../bin/python3 check_models.py mobilenet ../models/full_models/mobilenet_v3_Small_freeze.pth 2 4 0.4 4 cuda
+../bin/python3 check_models.py mobilenet ../models/full_models/mobilenet_v3_Small_freeze.pth 4 2 0.4 4 cuda
+../bin/python3 check_models.py mobilenet ../models/full_models/mobilenet_v3_small_nofreeze.pth 2 2 0.4 4 cuda
+../bin/python3 check_models.py mobilenet ../models/full_models/mobilenet_v3_small_nofreeze.pth 2 4 0.4 4 cuda
+../bin/python3 check_models.py mobilenet ../models/full_models/mobilenet_v3_small_nofreeze.pth 4 2 0.4 4 cuda
+../bin/python3 check_models.py resnet ../models/full_models/resnet18.pth 2 2 0.4 4 cuda
+../bin/python3 check_models.py resnet ../models/full_models/resnet18.pth 2 4 0.4 4 cuda
+../bin/python3 check_models.py resnet ../models/full_models/resnet18.pth 4 2 0.4 4 cuda
+../bin/python3 check_models.py shuffle_0_5 ../models/full_models/shufflenet_v2_x0_5.pth 2 2 0.4 4 cuda
+../bin/python3 check_models.py shuffle_0_5 ../models/full_models/shufflenet_v2_x0_5.pth 2 4 0.4 4 cuda
+../bin/python3 check_models.py shuffle_0_5 ../models/full_models/shufflenet_v2_x0_5.pth 4 2 0.4 4 cuda
+../bin/python3 check_models.py shuffle_1_0 ../models/full_models/shufflenet_v2_x1_0.pth 2 2 0.4 4 cuda
+../bin/python3 check_models.py shuffle_1_0 ../models/full_models/shufflenet_v2_x1_0.pth 2 4 0.4 4 cuda
+../bin/python3 check_models.py shuffle_1_0 ../models/full_models/shufflenet_v2_x1_0.pth 4 2 0.4 4 cuda
+../bin/python3 check_models.py squeeze ../models/full_models/squeezenet1_1.pth 2 2 0.4 4 cuda
+../bin/python3 check_models.py squeeze ../models/full_models/squeezenet1_1.pth 2 4 0.4 4 cuda
+../bin/python3 check_models.py squeeze ../models/full_models/squeezenet1_1.pth 4 2 0.4 4 cuda
+../bin/python3 check_models.py mobilenet ../models/full_models/mobilenet_v3_Small_freeze.pth 2 2 0.4 4 cuda
+../bin/python3 check_models.py mobilenet ../models/full_models/mobilenet_v3_Small_freeze.pth 2 4 0.4 4 cuda
+../bin/python3 check_models.py mobilenet ../models/full_models/mobilenet_v3_Small_freeze.pth 4 2 0.4 4 cuda
+../bin/python3 check_models.py mobilenet ../models/full_models/mobilenet_v3_small_nofreeze.pth 2 2 0.4 4 cuda
+../bin/python3 check_models.py mobilenet ../models/full_models/mobilenet_v3_small_nofreeze.pth 2 4 0.4 4 cuda
+../bin/python3 check_models.py mobilenet ../models/full_models/mobilenet_v3_small_nofreeze.pth 4 2 0.4 4 cuda
+../bin/python3 check_models.py resnet ../models/full_models/resnet18.pth 2 2 0.4 4 cuda
+../bin/python3 check_models.py resnet ../models/full_models/resnet18.pth 2 4 0.4 4 cuda
+../bin/python3 check_models.py resnet ../models/full_models/resnet18.pth 4 2 0.4 4 cuda
+../bin/python3 check_models.py shuffle_0_5 ../models/full_models/shufflenet_v2_x0_5.pth 2 2 0.4 4 cuda
+../bin/python3 check_models.py shuffle_0_5 ../models/full_models/shufflenet_v2_x0_5.pth 2 4 0.4 4 cuda
+../bin/python3 check_models.py shuffle_0_5 ../models/full_models/shufflenet_v2_x0_5.pth 4 2 0.4 4 cuda
+../bin/python3 check_models.py shuffle_1_0 ../models/full_models/shufflenet_v2_x1_0.pth 2 2 0.4 4 cuda
+../bin/python3 check_models.py shuffle_1_0 ../models/full_models/shufflenet_v2_x1_0.pth 2 4 0.4 4 cuda
+../bin/python3 check_models.py shuffle_1_0 ../models/full_models/shufflenet_v2_x1_0.pth 4 2 0.4 4 cuda
+../bin/python3 check_models.py squeeze ../models/full_models/squeezenet1_1.pth 2 2 0.4 4 cuda
+../bin/python3 check_models.py squeeze ../models/full_models/squeezenet1_1.pth 2 4 0.4 4 cuda
+../bin/python3 check_models.py squeeze ../models/full_models/squeezenet1_1.pth 4 2 0.4 4 cuda
+../bin/python3 check_models.py mobilenet ../models/full_models/mobilenet_v3_Small_freeze.pth 2 2 0.4 4 cuda
+../bin/python3 check_models.py mobilenet ../models/full_models/mobilenet_v3_Small_freeze.pth 2 4 0.4 4 cuda
+../bin/python3 check_models.py mobilenet ../models/full_models/mobilenet_v3_Small_freeze.pth 4 2 0.4 4 cuda
+../bin/python3 check_models.py mobilenet ../models/full_models/mobilenet_v3_small_nofreeze.pth 2 2 0.4 4 cuda
+../bin/python3 check_models.py mobilenet ../models/full_models/mobilenet_v3_small_nofreeze.pth 2 4 0.4 4 cuda
+../bin/python3 check_models.py mobilenet ../models/full_models/mobilenet_v3_small_nofreeze.pth 4 2 0.4 4 cuda
+../bin/python3 check_models.py resnet ../models/full_models/resnet18.pth 2 2 0.4 4 cuda
+../bin/python3 check_models.py resnet ../models/full_models/resnet18.pth 2 4 0.4 4 cuda
+../bin/python3 check_models.py resnet ../models/full_models/resnet18.pth 4 2 0.4 4 cuda
+../bin/python3 check_models.py shuffle_0_5 ../models/full_models/shufflenet_v2_x0_5.pth 2 2 0.4 4 cuda
+../bin/python3 check_models.py shuffle_0_5 ../models/full_models/shufflenet_v2_x0_5.pth 2 4 0.4 4 cuda
+../bin/python3 check_models.py shuffle_0_5 ../models/full_models/shufflenet_v2_x0_5.pth 4 2 0.4 4 cuda
+../bin/python3 check_models.py shuffle_1_0 ../models/full_models/shufflenet_v2_x1_0.pth 2 2 0.4 4 cuda
+../bin/python3 check_models.py shuffle_1_0 ../models/full_models/shufflenet_v2_x1_0.pth 2 4 0.4 4 cuda
+../bin/python3 check_models.py shuffle_1_0 ../models/full_models/shufflenet_v2_x1_0.pth 4 2 0.4 4 cuda
+../bin/python3 check_models.py squeeze ../models/full_models/squeezenet1_1.pth 2 2 0.4 4 cuda
+../bin/python3 check_models.py squeeze ../models/full_models/squeezenet1_1.pth 2 4 0.4 4 cuda
+../bin/python3 check_models.py squeeze ../models/full_models/squeezenet1_1.pth 4 2 0.4 4 cuda
