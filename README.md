@@ -12,6 +12,6 @@ This project was developed as part of the Embedded Systems course at the Nationa
 - **`quantization.ipynb`**: Jupyter Notebook detailing the static and dynamic quantization steps (where applicable).
 - **`run_scripts/`**: Directory containing utility scripts:
   - `check_models.py`: Script for splitting images into subframes and performing inference.
-  - Additional scripts for streamlined model testing.
+  - Additional scripts for streamlined model testing and deployment.
 - **`observer_dataset/`**: A small subset of the Visual Wake Words Dataset used for deploying and testing quantized models.
 - **`models/`**: Directory storing the state dictionaries of fine-tuned and quantized models.
